@@ -15,7 +15,7 @@ public class TeamPanel extends JPanel {
         memberLabels[0].setHorizontalTextPosition(SwingConstants.CENTER);
         memberLabels[0].setVerticalTextPosition(SwingConstants.BOTTOM);
         memberLabels[1] = new JLabel();
-        memberLabels[2] = new JLabel();
+        memberLabels[2] = new JLabel("Canon", new ImageIcon("fries.jpg"), SwingConstants.CENTER);
 
 
 
@@ -23,7 +23,7 @@ public class TeamPanel extends JPanel {
             this.add(member);
         }
 
-        this.setPreferredSize(new Dimension(500, 250));
+        this.setPreferredSize(new Dimension(1000, 1000));
         this.setBackground(Color.LIGHT_GRAY);
 
 
