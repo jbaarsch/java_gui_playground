@@ -15,7 +15,9 @@ public class TeamPanel extends JPanel {
         memberLabels[0].setHorizontalTextPosition(SwingConstants.CENTER);
         memberLabels[0].setVerticalTextPosition(SwingConstants.BOTTOM);
         memberLabels[1] = new JLabel();
-        memberLabels[2] = new JLabel();
+        memberLabels[2] = new JLabel("Justin's Panel", new ImageIcon("moon.png"), SwingConstants.CENTER);
+        memberLabels[2].setHorizontalTextPosition(SwingConstants.CENTER);
+        memberLabels[2].setVerticalTextPosition(SwingConstants.BOTTOM);
 
 
 
