@@ -10,6 +10,7 @@ public class ShapeIconPanel extends JPanel {
         imgs = new ArrayList<Icon>();
 
         imgs.add(new MarsIcon(50));
+        imgs.add(new HunterIcon(50));
         //add your Icons here.
 
 
