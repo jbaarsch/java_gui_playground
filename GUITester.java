@@ -11,6 +11,9 @@ public class GUITester {
         displayPanel.add(new TeamPanel());
         displayPanel.add(new ShapeIconPanel());
 
+
+
+
         testFrame.getContentPane().add(displayPanel);
         testFrame.pack();
         testFrame.setVisible(true);
