@@ -15,7 +15,7 @@ public class TeamPanel extends JPanel {
         memberLabels[0].setHorizontalTextPosition(SwingConstants.CENTER);
         memberLabels[0].setVerticalTextPosition(SwingConstants.BOTTOM);
         memberLabels[1] = new JLabel("Fabrice Faustin's label", new ImageIcon("spiderman.jpg"), SwingConstants.CENTER);
-        memberLabels[2] = new JLabel("Abraham M",new ImageIcon("mario.png"),SwingConstants.SOUTH);
+        memberLabels[2] = new JLabel("Abraham M",new ImageIcon("mario.png"),SwingConstants.CENTER);
 
 
 
@@ -23,7 +23,7 @@ public class TeamPanel extends JPanel {
             this.add(member);
         }
 
-        this.setPreferredSize(new Dimension(500, 250));
+        this.setPreferredSize(new Dimension(1024, 1024));
         this.setBackground(Color.LIGHT_GRAY);
 
 
