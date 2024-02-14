@@ -11,7 +11,7 @@ public class TeamPanel extends JPanel {
         memberLabels = new JLabel[TEAM_SIZE];
 
         // create your own label that have an image and your name as text.
-        memberLabels[0] = new JLabel("Sample", new ImageIcon("smile.png"), SwingConstants.CENTER);
+        memberLabels[0] = new JLabel("Chuckie's Panel", new ImageIcon("download.png"), SwingConstants.CENTER);
         memberLabels[0].setHorizontalTextPosition(SwingConstants.CENTER);
         memberLabels[0].setVerticalTextPosition(SwingConstants.BOTTOM);
         memberLabels[1] = new JLabel();
