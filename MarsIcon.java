@@ -1,10 +1,10 @@
-import java.awt.*;
-import java.awt.geom.*;
-import javax.swing.*;
+
 
 /**
    An icon that has the shape of the planet Mars.
-*/
+*/import java.awt.*;
+import java.awt.geom.*;
+import javax.swing.*;
 public class MarsIcon implements Icon
 {
    /**

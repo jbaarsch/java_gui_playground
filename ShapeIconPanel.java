@@ -11,6 +11,7 @@ public class ShapeIconPanel extends JPanel {
 
         imgs.add(new MarsIcon(50));
         //add your Icons here.
+        imgs.add(new PurpleIcon(50));
 
 
         this.setPreferredSize(new Dimension(500, 250));
@@ -21,8 +22,11 @@ public class ShapeIconPanel extends JPanel {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
+        int x = 0;
         for (Icon img : imgs) {
-            img.paintIcon(this, g, 0, 0 );
+
+            img.paintIcon(this, g, x, 0 );
+            x = x+50;
         }
     }
 
