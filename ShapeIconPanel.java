@@ -12,6 +12,8 @@ public class ShapeIconPanel extends JPanel {
         imgs.add(new MarsIcon(50));
         //add your Icons here.
 
+        imgs.add(new Earth(100));
+
 
         this.setPreferredSize(new Dimension(500, 250));
         this.setBackground(Color.black);
