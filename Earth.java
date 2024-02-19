@@ -22,7 +22,7 @@ import java.awt.geom.Ellipse2D;
         public void paintIcon(Component c, Graphics g, int x, int y)
         {
             Graphics2D g2 = (Graphics2D) g;
-            Ellipse2D.Double planet = new Ellipse2D.Double(x + 200, y + 100,
+            Ellipse2D.Double planet = new Ellipse2D.Double(x + 300, y + 100,
                     size, size);
             g2.setColor(Color.GREEN);
             g2.fill(planet);
