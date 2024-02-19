@@ -10,7 +10,17 @@ public class ShapeIconPanel extends JPanel {
         imgs = new ArrayList<Icon>();
 
         imgs.add(new MarsIcon(50));
+
         //add your Icons here.
+        imgs.add(new Uranus(69));
+
+
+        imgs.add(new Earth(100));
+
+        imgs.add(new Neptune(80));
+
+
+
 
 
         this.setPreferredSize(new Dimension(500, 250));
