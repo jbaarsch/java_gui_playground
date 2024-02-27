@@ -10,6 +10,7 @@ public class GUITester {
         JPanel displayPanel = new JPanel();
         displayPanel.add(new TeamPanel());
         displayPanel.add(new ShapeIconPanel());
+        displayPanel.add(new KeyBoardPanel());
 
         testFrame.getContentPane().add(displayPanel);
         testFrame.pack();
