@@ -21,7 +21,29 @@ public class KeyBoardPanel extends JPanel{
 
         this.setPreferredSize(new Dimension(PANEL_WIDTH, PANEL_HEIGHT));
         this.setBackground(Color.GREEN);
-        this.addKeyListener(new DirectionListener());
+        this.addKeyListener(new KeyListener() {
+            public void keyTyped(KeyEvent e) {
+            }
+            public void keyPressed(KeyEvent e){
+                switch(e.getKeyCode()) {
+                    case KeyEvent.VK_UP:
+                        marsY -= STEP;
+                        break;
+                    case KeyEvent.VK_DOWN:
+                        marsY += STEP;
+                        break;
+                    case KeyEvent.VK_RIGHT:
+                        marsX += STEP;
+                        break;
+                    case KeyEvent.VK_LEFT:
+                        marsX -= STEP;
+                        break;
+                }
+                repaint();
+
+            }
+            public void keyReleased(KeyEvent e) {}
+        });
         this.setFocusable(true);
     }
 

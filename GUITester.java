@@ -11,6 +11,7 @@ public class GUITester {
         displayPanel.add(new TeamPanel());
         displayPanel.add(new ShapeIconPanel());
         displayPanel.add(new KeyBoardPanel());
+        displayPanel.add(new MousePanel());
 
         testFrame.getContentPane().add(displayPanel);
         testFrame.pack();
