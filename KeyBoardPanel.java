@@ -6,6 +6,14 @@ import java.time.Year;
 import javax.swing.*;
 
 // This program was influenced by Lewis and Loftus' DirectionPanel, from their Java Software Solutions textbook.
+ /*  This panel has a mars Icon that moves around the panel when the arrow keys are pressed.  It makes use of a
+ keyListener, who's keyPressed(KeyEvent e) function listens for any key to be pressed, and then retrieves the
+ identity of the key from the KeyEvent.  If the Key was the down arrow, the y-coordinate of the icon is increased,
+ moving the MarsIcon down.  Other arrow keys respond accordingly, either changing the x- or the y-coordinates.
+
+  */
+
+
 public class KeyBoardPanel extends JPanel{
     private final int PANEL_HEIGHT = 500,
             PANEL_WIDTH = 500,

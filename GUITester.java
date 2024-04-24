@@ -1,5 +1,11 @@
 import javax.swing.*;
 
+/*  This JFrame displays four different Panels defined in the other classes here.
+The TeamPanel is gray, the ShapeIconPanel is black, the KeyBoardPanel is Green and the MousePanel is pink.
+Each panel demonstrates a different GUI component.
+
+ */
+
 public class GUITester {
 
 

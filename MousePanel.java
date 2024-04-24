@@ -6,7 +6,10 @@ import java.util.spi.ToolProvider;
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicSplitPaneUI;
 
+/*  Mouse Panel is simply a panel that listens for a mouseclick.  When the mouse is clicked, a line appears across
+the panel.  The listener only "hears" when the mouse is hovering over this panel.
 
+ */
 public class MousePanel extends JPanel{
     private final int PANEL_WIDTH = 500,
                 PANEL_HEIGHT = 500,

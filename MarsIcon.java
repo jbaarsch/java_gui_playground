@@ -2,6 +2,15 @@ import java.awt.*;
 import java.awt.geom.*;
 import javax.swing.*;
 
+/*  MarsIcon is an implementation of the Icon interface.  The interface is simple, it only requires
+    int getIconWidth()
+    int getIconHeight()
+    void paintIcon(Component c, Graphics g, int x, int y)
+
+    In this case, a MarsIcon is simply a red circle.
+
+ */
+
 /**
    An icon that has the shape of the planet Mars.
 */
