@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InitialTests/InitialTests.iml" filepath="$PROJECT_DIR$/InitialTests/InitialTests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_gui_playground.iml" filepath="$PROJECT_DIR$/.idea/java_gui_playground.iml" />
     </modules>
   </component>
